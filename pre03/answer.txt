@@ -1,0 +1,50 @@
+/**  
+* The output of the program is:
+No, I wug.
+You wugga wug.
+I wug.
+*/
+
+#1
+/**
+* The main argumet starts out by coding the text "No, I." Which then sends you to zoop().  Zoop then sends the program to baffle.   Baffle is meant to reveal text.  The text it reveals is wug.   Giving the first line in the output:
+
+No, I wug
+
+* After baffle reveals wug it sends the program to ping.   Ping is used to print the "." Resulting with the following output:
+
+No, I wug.
+
+* Then the program goes back uo to baffle which print the following line "You wugga" resulting the following output:
+
+You wugga
+
+* The program then goes to baffle again which reveals the text "wug" resulting the following output:
+
+You wugga wug
+
+* The program then goes to ping again which prints "." resulting the output:
+
+You wugga wug.
+
+* Then the program directs back to main which prints the line "I".   The program goes back to baffle which prints "wug" and then the program directs it to ping which prints "."
+
+* The final output once again is:
+
+No, I wug.
+You wugga wug.
+I wug.
+
+#2
+Main - No, I
+baffle - wug
+ping - .
+Stack diagram for ping
+
+#3
+If you invoke baffle (); at the end of the ping method it would print "wug" again resulting this output:
+
+No, I wug.wug
+
+
+
